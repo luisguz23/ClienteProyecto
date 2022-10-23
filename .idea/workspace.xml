@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef8152a8-35a0-4c29-ad81-54b40e81e5a6" name="Changes" comment="Se crea relación cliente servidor" />
+    <list default="true" id="ef8152a8-35a0-4c29-ad81-54b40e81e5a6" name="Changes" comment="Se crea relación cliente servidor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/clienteproyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/clienteproyecto/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/luisg/OneDrive/Documentos/TEC/2022/Segundo semestre 2022/Datos I/Proyectos/ServidorProyecto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,7 +57,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665542103412</updated>
-      <workItem from="1665542104681" duration="2040000" />
+      <workItem from="1665542104681" duration="2942000" />
+      <workItem from="1665592531882" duration="1711000" />
+      <workItem from="1665634765513" duration="3737000" />
+      <workItem from="1665710469094" duration="2421000" />
+      <workItem from="1665787595891" duration="1439000" />
+      <workItem from="1665947414053" duration="825000" />
+      <workItem from="1665974851928" duration="1095000" />
+      <workItem from="1666071128563" duration="1420000" />
+      <workItem from="1666106185188" duration="3428000" />
+      <workItem from="1666241110118" duration="1483000" />
+      <workItem from="1666412112678" duration="2227000" />
+      <workItem from="1666470684266" duration="6346000" />
     </task>
     <task id="LOCAL-00001" summary="Se crea relación cliente servidor">
       <created>1665544459582</created>
@@ -65,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665544652487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se crea relación cliente servidor">
+      <created>1665544740616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665544740616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
