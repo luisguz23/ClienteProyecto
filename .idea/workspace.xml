@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef8152a8-35a0-4c29-ad81-54b40e81e5a6" name="Changes" comment="Se agrega función para añadir y eliminar archivos de la biblioteca" />
+    <list default="true" id="ef8152a8-35a0-4c29-ad81-54b40e81e5a6" name="Changes" comment="Se agrega función para añadir y eliminar archivos de la biblioteca">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clienteproyecto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/clienteproyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/clienteproyecto/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -36,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/luisg/OneDrive/Documentos/TEC/2022/Segundo semestre 2022/Datos I/Proyectos/ServidorProyecto",
+    "last_opened_file_path": "C:/Users/luisg/OneDrive/Documentos/TEC/2022/Segundo semestre 2022/Datos I/Proyectos/ProyectoVersionFinalGabrielGuzmanyLuisGuzman-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +75,15 @@
       <workItem from="1666241110118" duration="1483000" />
       <workItem from="1666412112678" duration="2227000" />
       <workItem from="1666470684266" duration="6671000" />
+      <workItem from="1666650906537" duration="2462000" />
+      <workItem from="1666747237564" duration="2945000" />
+      <workItem from="1666803110518" duration="8235000" />
+      <workItem from="1666907080283" duration="4061000" />
+      <workItem from="1667017216819" duration="1333000" />
+      <workItem from="1667086285653" duration="1781000" />
+      <workItem from="1667110037357" duration="1200000" />
+      <workItem from="1667143839424" duration="2613000" />
+      <workItem from="1667262646563" duration="12260000" />
     </task>
     <task id="LOCAL-00001" summary="Se crea relación cliente servidor">
       <created>1665544459582</created>
