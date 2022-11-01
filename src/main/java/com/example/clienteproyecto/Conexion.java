@@ -1,29 +1,49 @@
 package com.example.clienteproyecto;
 import javafx.application.Platform;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 
 import javax.swing.*;
 import java.io.*;
 import java.net.Socket;
+import java.util.List;
 
 public class Conexion {
 
 
     Socket clinte;
+    /**
+     * puerto que se utiliza para realizar la conexion entre el cliente y el servidor
+     */
     int puerto = 9000;
+
+    /**
+     * ip del host
+     */
     String ip="127.0.0.1";
     BufferedReader entrada, teclado;
     PrintStream salida;
+
+     public String message;
     @FXML
     private TextField mensajeTextField;
+
     @FXML
-    private Label respuestaLabel;
+    ListView<String> resultados;
 
 
+    /**
+     * realiza conexion entre el cliente y el servidor
+     *
+     */
     //Codigo tomado de: https://www.youtube.com/watch?v=tsr53-zO73o
     public void inicio(){
         try{
@@ -34,8 +54,9 @@ public class Conexion {
             String tec=mensajeTextField.getText();
             salida=new PrintStream(clinte.getOutputStream());
             salida.println(tec);
-            String message=entrada.readLine();
-            respuestaLabel.setText(message);
+            String respuesta=entrada.readLine();
+            //respuestaLabel.setText(message);
+            message=respuesta;
             System.out.println(message);
 
             entrada.close();
@@ -45,7 +66,10 @@ public class Conexion {
         }catch (Exception e){}
     }
 
-
+    /**
+     * Abre la ventana para agregar un archivo a la carpeta de biblioteca
+     * @param event detecta cuando se activa el boton asignado a este metodo
+     */
     public void saveFile(ActionEvent event){
         InputStream inputStream = null;
         OutputStream outputStream = null;
@@ -82,6 +106,11 @@ public class Conexion {
 
     }
 
+    /**
+     * Abre la ventana para eliminar un archivo a la carpeta de biblioteca
+     * @param event detecta cuando se activa el boton asignado a este metodo
+     */
+
     public void deleteFile(ActionEvent event){
         JFileChooser fileChooser = new JFileChooser();
 
@@ -101,6 +130,31 @@ public class Conexion {
         }
     }
 
+    /**
+     * metodo que toma el string de conexion ordenado mediante mediante quicksort y carga al listview
+     * @param event detecta cuando se activa el boton asignado a este metodo
+     */
+
+    public void btn_quicksort(ActionEvent event){
+
+        String[] palabra= message.split("[ \\u0012 , ; ?!¡¿\\'\\\"\\\\[\\\\]]+");
+        for (String item: palabra){
+            if (item != " "){
+                System.out.println(item);
+            }
+
+        }
+
+
+        resultados.getItems().add(message);
+
+    }
+
+
+    /**
+     * metodo que cierra el programa
+     * @param event detecta cuando se activa el boton asignado a este metodo
+     */
     public void salir(ActionEvent event){
         Platform.exit();
     }
