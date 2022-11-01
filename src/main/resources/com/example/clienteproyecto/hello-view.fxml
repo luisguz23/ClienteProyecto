@@ -45,16 +45,6 @@
             <Font name="System Italic" size="14.0" />
          </font>
       </Button>
-      <Button fx:id="bubble" layoutX="461.0" layoutY="184.0" mnemonicParsing="false" onAction="#btn_bubble" prefHeight="42.0" prefWidth="92.0" text="Bubble">
-         <font>
-            <Font name="System Italic" size="14.0" />
-         </font>
-      </Button>
-      <Button fx:id="radix" layoutX="461.0" layoutY="262.0" mnemonicParsing="false" onAction="#btn_radix" prefHeight="42.0" prefWidth="92.0" text="Radix">
-         <font>
-            <Font name="System Italic" size="14.0" />
-         </font>
-      </Button>
       <ListView layoutX="192.0" layoutY="114.0" prefHeight="200.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
